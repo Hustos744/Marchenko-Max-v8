@@ -1,0 +1,32 @@
+{
+  "name": "marchenko-max-v8",
+  "version": "1.0.0",
+  "description": "> Final exam for checking student knowledge and practical skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hustos744/Marchenko-Max-v8.git"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.26.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^29.0.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hustos744/Marchenko-Max-v8/issues"
+  },
+  "homepage": "https://github.com/Hustos744/Marchenko-Max-v8#readme"
+}
